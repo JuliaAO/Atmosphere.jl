@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(Atmosphere, :DocTestSetup, :(using Atmosphere); recursive=tr
 makedocs(;
     modules=[Atmosphere],
     authors="Ryan Dungee <rdungee@hawaii.edu> and contributors",
-    repo="https://github.com/rdungee/Atmosphere.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/JuliaAO/Atmosphere.jl/blob/{commit}{path}#{line}",
     sitename="Atmosphere.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://rdungee.github.io/Atmosphere.jl",
+        canonical="https://JuliaAO.github.io/Atmosphere.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/rdungee/Atmosphere.jl",
+    repo="github.com/JuliaAO/Atmosphere.jl",
     devbranch="main",
 )
