@@ -1,0 +1,7 @@
+name = "Atmosphere"
+uuid = "406b58f6-10d7-4414-ba43-fe12d5a8d471"
+authors = ["Ryan Dungee <rdungee@hawaii.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"

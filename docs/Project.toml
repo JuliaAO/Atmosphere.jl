@@ -1,0 +1,3 @@
+[deps]
+Atmosphere = "406b58f6-10d7-4414-ba43-fe12d5a8d471"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
